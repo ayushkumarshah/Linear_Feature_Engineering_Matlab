@@ -1,0 +1,6 @@
+traindata = importdata('traindata.txt');
+X = traindata(:, 1:8);
+Y = traindata(:, 9);
+
+figure;
+plot(X(1,:)
