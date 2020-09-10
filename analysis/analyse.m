@@ -1,6 +1,6 @@
 % Data analysis
 
-traindata = importdata('traindata.txt');
+traindata = importdata('../traindata.txt');
 X = traindata(:, 1:8);
 Y = traindata(:, 9);
 
