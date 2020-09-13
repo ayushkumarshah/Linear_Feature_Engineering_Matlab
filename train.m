@@ -25,6 +25,8 @@ N = length(Y);
 % Display errors for different models
 model_names = get_model_names(models);
 errors = table(model_names, R_train, R_val);
+errors = sortrows(errors, 'R_val', 'MissingPlacement','last');
+
 fprintf('Train and validation errors for different models \n\n');
 disp(errors);
 
