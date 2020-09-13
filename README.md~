@@ -14,18 +14,13 @@ can be run by calling the function `get_predictions()`
 Optional parameters: `order` and `K` can be passed to the function as well.
 
 The function generates the predicted values and also writes it to a file
-`results/predictions.txt`.
+`predictions.txt`.
 
 ### Data Analysis
 
 Some analysis like visualization of the correlation of the features with 
 the target, PCA for visualizing the features, etc was performed on the 
-data. 
-
-The analysis can be found in the folder `analysis`. The live script 
-`analysis.mlx` contains the code and the outputs of the data analysis. The
-file has also been converted to pdf and html versions, for easy access.
-They can be found in the same folder.
+data. The a
 
 ### Code structure
 

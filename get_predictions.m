@@ -10,7 +10,7 @@ else
 end
 
 % Import test data
-X_test = importdata('testinputs.txt')';
+X_test = importdata('data/testinputs.txt')';
 
 % Train the models
 [w_best, name_best_model, order_best] = train(orders, K);
@@ -24,9 +24,8 @@ y_pred = (w_best' * Z_best)';
 fprintf('Predictions on test data generated \n');
 
 % Write pedictions to file
-fileID = fopen('predictions.txt', 'w');
+fileID = fopen('results/predictions.txt', 'w');
 fprintf(fileID, '%f\n',y_pred);
 fclose(fileID);
-fprintf('Predictions written to the file predictions.txt \n');
+fprintf('Predictions written to the file results/predictions.txt \n');
 end
-

@@ -5,7 +5,7 @@ function [w_best, name_best_model, order_best, R_train_best, y_pred_train] = tra
 warning('off','all');
 
 % Import training data
-traindata = importdata('traindata.txt');
+traindata = importdata('data/traindata.txt');
 X = traindata(:, 1:8)';
 Y = traindata(:, 9);
 
