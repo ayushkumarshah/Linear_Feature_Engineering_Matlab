@@ -1,5 +1,5 @@
 function [model_names] = get_model_names(models)
-% Get model names
+% get_model_names: Get names of the models
 
 num_models = models.Count;
 model_names = strings(num_models, 1);
