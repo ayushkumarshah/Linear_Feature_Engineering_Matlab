@@ -21,7 +21,7 @@ Z_best = models(name_best_model);
 
 % Calculate predictions using the best model
 y_pred = (w_best' * Z_best)';
-fprintf('Predictions on test data generated \n');
+fprintf('\nPredictions on test data generated \n');
 
 % Write pedictions to file
 fileID = fopen('results/predictions.txt', 'w');

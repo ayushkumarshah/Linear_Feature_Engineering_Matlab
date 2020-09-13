@@ -12,7 +12,7 @@ end
 % Table of errors
 orders = orders';
 errors = table(orders, R_train, R_val);
-fprintf('Train and validation errors for polynomial models of different orders \n');
+fprintf('Train and validation errors for polynomial models of different orders \n\n');
 disp(errors);
 
 plot_errors(R_train, R_val, orders);

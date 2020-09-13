@@ -25,7 +25,7 @@ N = length(Y);
 % Display errors for different models
 model_names = get_model_names(models);
 errors = table(model_names, R_train, R_val);
-fprintf('Train and validation errors for different models \n');
+fprintf('Train and validation errors for different models \n\n');
 disp(errors);
 
 % Get the best model with least validation error

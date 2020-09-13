@@ -4,6 +4,7 @@ function [R_train, R_val, models, order_best] = fit_models(X, Y, K, orders)
 % Create custom models
 models = create_custom_models(X);
 num_models = models.Count + 1;
+fprintf(num_models + " custom models created \n\n");
 
 R_train = zeros(num_models, 1);
 R_val = zeros(num_models, 1);
@@ -14,7 +15,7 @@ R_val = zeros(num_models, 1);
 models("Poly_order_"+order_best) = create_polynomial_model(X, order_best);
 
 % Fit other custom models
-fprintf('Fitting other custom models \n');
+fprintf('\nFitting other custom models \n');
 order = -1;  % not used inside the function estimate_errors_kfold
 for i=2:num_models
     model = values(models);
