@@ -1,5 +1,5 @@
-function [Z] = create_features(X, order)
-% Create additional features from existing features
+function [Z] = create_models(X, order)
+% Create additional models from existing models
 
 [p, N] = size(X);
 
