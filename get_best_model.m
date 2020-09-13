@@ -1,11 +1,11 @@
-function [R_train_best,R_val_best, order_best] = get_best_model(R_val, orders)
+function [model, model_name] = get_best_model(models, R_val)
 % Select best model
 
 [~, min_idx] = min(R_val);
-order_best = orders(min_idx);
-disp("Best fitting polynomial order = " + order_best); 
+key = keys(models);
+model_name = key{min_idx};
+model = models(model_name);
+disp("Best model = " + key{min_idx}); 
 
-R_train_best = R_train(min_idx);
-R_val_best = R_val(min_idx);
 end
 

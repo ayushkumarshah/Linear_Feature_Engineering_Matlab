@@ -10,7 +10,7 @@ for k = 1: K
     if nargin > 4
         Z = model;
     else
-        Z = create_models(X, order);
+        Z = create_polynomial_model(X, order);
     end
     val_idx_start = 1 + (k-1) * chunk_size;
     val_idx_end = k * chunk_size;
