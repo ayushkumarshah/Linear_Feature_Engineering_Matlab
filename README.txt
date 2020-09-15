@@ -1,6 +1,6 @@
 # Linear_Feature_Engineering_Matlab
 
-## Project 1: Linear Feature Engineering <br> CISC 820 Quantitative Foundations
+## Project 1: Linear Feature Engineering CISC 820 Quantitative Foundations
 
 ### Running the code
 
@@ -60,5 +60,3 @@ The analysis can be found in the folder `analysis`. The live script
 `analysis.mlx` contains the code and the outputs of the data analysis. The
 file has also been converted to pdf and html versions, for easy access.
 They can be found in the same folder.
-
-License: [MIT](https://github.com/ayushkumarshah/Linear_Feature_Engineering_Matlab/blob/master/LICENSE)
