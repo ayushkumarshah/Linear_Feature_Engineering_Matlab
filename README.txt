@@ -7,9 +7,7 @@
 The main code which generates the predicted values is `get_predictions.m`. This
 can be run by calling the function `get_predictions()`.
 
-```matlab
 >> y_pred = get_predictions()
-```
 
 Optional parameters: `order` and `K` can be passed to the function as well.
 
