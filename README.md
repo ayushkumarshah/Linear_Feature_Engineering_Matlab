@@ -1,4 +1,4 @@
-# Linear_Feature_Engineering_Matlab
+# Linear Feature Engineering MATLAB
 
 ## Project 1: Linear Feature Engineering <br> CISC 820 Quantitative Foundations
 
